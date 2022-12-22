@@ -56,7 +56,7 @@ i {
 
 #navbar {
     display: flex;
-    gap: 2rem; /* Vai fazer com que eles deêm espaços igual entre si */
+    gap: 4rem; /* Vai fazer com que eles deêm espaços igual entre si */
     text-transform: uppercase; /* Isso vai deixar os itens em caixa alta*/
     margin-right: 2rem;
 }
@@ -98,7 +98,7 @@ i {
     position: absolute;
     z-index: 1;
     top: 20px;
-    left: 20px;
+    left: 40px;
 }
 .dots {
     display: flex;
@@ -112,4 +112,8 @@ i {
     width: 20px;
     height: 20px;
     background-color: var(--primary-text-color);
+}
+
+.dot.active {
+    background-color: var(--main-color);
 }
